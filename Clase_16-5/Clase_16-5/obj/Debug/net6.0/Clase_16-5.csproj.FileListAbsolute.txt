@@ -1,0 +1,5 @@
+C:\Users\bleac\source\repos\Clase_16-5\Clase_16-5\obj\Debug\net6.0\Clase_16-5.csproj.AssemblyReference.cache
+C:\Users\bleac\source\repos\Clase_16-5\Clase_16-5\obj\Debug\net6.0\Clase_16-5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bleac\source\repos\Clase_16-5\Clase_16-5\obj\Debug\net6.0\Clase_16-5.AssemblyInfoInputs.cache
+C:\Users\bleac\source\repos\Clase_16-5\Clase_16-5\obj\Debug\net6.0\Clase_16-5.AssemblyInfo.cs
+C:\Users\bleac\source\repos\Clase_16-5\Clase_16-5\obj\Debug\net6.0\Clase_16-5.csproj.CoreCompileInputs.cache
