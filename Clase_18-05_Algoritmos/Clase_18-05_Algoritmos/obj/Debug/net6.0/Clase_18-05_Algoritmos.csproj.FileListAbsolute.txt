@@ -1,0 +1,15 @@
+C:\Users\bleac\source\repos\Clase_18-05_Algoritmos\Clase_18-05_Algoritmos\bin\Debug\net6.0\Clase_18-05_Algoritmos.exe
+C:\Users\bleac\source\repos\Clase_18-05_Algoritmos\Clase_18-05_Algoritmos\bin\Debug\net6.0\Clase_18-05_Algoritmos.deps.json
+C:\Users\bleac\source\repos\Clase_18-05_Algoritmos\Clase_18-05_Algoritmos\bin\Debug\net6.0\Clase_18-05_Algoritmos.runtimeconfig.json
+C:\Users\bleac\source\repos\Clase_18-05_Algoritmos\Clase_18-05_Algoritmos\bin\Debug\net6.0\Clase_18-05_Algoritmos.dll
+C:\Users\bleac\source\repos\Clase_18-05_Algoritmos\Clase_18-05_Algoritmos\bin\Debug\net6.0\Clase_18-05_Algoritmos.pdb
+C:\Users\bleac\source\repos\Clase_18-05_Algoritmos\Clase_18-05_Algoritmos\obj\Debug\net6.0\Clase_18-05_Algoritmos.csproj.AssemblyReference.cache
+C:\Users\bleac\source\repos\Clase_18-05_Algoritmos\Clase_18-05_Algoritmos\obj\Debug\net6.0\Clase_18-05_Algoritmos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bleac\source\repos\Clase_18-05_Algoritmos\Clase_18-05_Algoritmos\obj\Debug\net6.0\Clase_18-05_Algoritmos.AssemblyInfoInputs.cache
+C:\Users\bleac\source\repos\Clase_18-05_Algoritmos\Clase_18-05_Algoritmos\obj\Debug\net6.0\Clase_18-05_Algoritmos.AssemblyInfo.cs
+C:\Users\bleac\source\repos\Clase_18-05_Algoritmos\Clase_18-05_Algoritmos\obj\Debug\net6.0\Clase_18-05_Algoritmos.csproj.CoreCompileInputs.cache
+C:\Users\bleac\source\repos\Clase_18-05_Algoritmos\Clase_18-05_Algoritmos\obj\Debug\net6.0\Clase_18-05_Algoritmos.dll
+C:\Users\bleac\source\repos\Clase_18-05_Algoritmos\Clase_18-05_Algoritmos\obj\Debug\net6.0\refint\Clase_18-05_Algoritmos.dll
+C:\Users\bleac\source\repos\Clase_18-05_Algoritmos\Clase_18-05_Algoritmos\obj\Debug\net6.0\Clase_18-05_Algoritmos.pdb
+C:\Users\bleac\source\repos\Clase_18-05_Algoritmos\Clase_18-05_Algoritmos\obj\Debug\net6.0\Clase_18-05_Algoritmos.genruntimeconfig.cache
+C:\Users\bleac\source\repos\Clase_18-05_Algoritmos\Clase_18-05_Algoritmos\obj\Debug\net6.0\ref\Clase_18-05_Algoritmos.dll

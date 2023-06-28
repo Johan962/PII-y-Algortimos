@@ -1,0 +1,15 @@
+C:\Users\bleac\source\repos\Clase-12_6-PII\bin\Debug\net6.0\Clase-12_6-PII.exe
+C:\Users\bleac\source\repos\Clase-12_6-PII\bin\Debug\net6.0\Clase-12_6-PII.deps.json
+C:\Users\bleac\source\repos\Clase-12_6-PII\bin\Debug\net6.0\Clase-12_6-PII.runtimeconfig.json
+C:\Users\bleac\source\repos\Clase-12_6-PII\bin\Debug\net6.0\Clase-12_6-PII.dll
+C:\Users\bleac\source\repos\Clase-12_6-PII\bin\Debug\net6.0\Clase-12_6-PII.pdb
+C:\Users\bleac\source\repos\Clase-12_6-PII\obj\Debug\net6.0\Clase-12_6-PII.csproj.AssemblyReference.cache
+C:\Users\bleac\source\repos\Clase-12_6-PII\obj\Debug\net6.0\Clase-12_6-PII.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bleac\source\repos\Clase-12_6-PII\obj\Debug\net6.0\Clase-12_6-PII.AssemblyInfoInputs.cache
+C:\Users\bleac\source\repos\Clase-12_6-PII\obj\Debug\net6.0\Clase-12_6-PII.AssemblyInfo.cs
+C:\Users\bleac\source\repos\Clase-12_6-PII\obj\Debug\net6.0\Clase-12_6-PII.csproj.CoreCompileInputs.cache
+C:\Users\bleac\source\repos\Clase-12_6-PII\obj\Debug\net6.0\Clase-12_6-PII.dll
+C:\Users\bleac\source\repos\Clase-12_6-PII\obj\Debug\net6.0\refint\Clase-12_6-PII.dll
+C:\Users\bleac\source\repos\Clase-12_6-PII\obj\Debug\net6.0\Clase-12_6-PII.pdb
+C:\Users\bleac\source\repos\Clase-12_6-PII\obj\Debug\net6.0\Clase-12_6-PII.genruntimeconfig.cache
+C:\Users\bleac\source\repos\Clase-12_6-PII\obj\Debug\net6.0\ref\Clase-12_6-PII.dll

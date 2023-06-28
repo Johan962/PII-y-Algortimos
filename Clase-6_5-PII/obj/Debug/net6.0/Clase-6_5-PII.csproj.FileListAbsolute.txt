@@ -1,0 +1,15 @@
+C:\Users\bleac\source\repos\Clase-6_5-PII\bin\Debug\net6.0\Clase-6_5-PII.exe
+C:\Users\bleac\source\repos\Clase-6_5-PII\bin\Debug\net6.0\Clase-6_5-PII.deps.json
+C:\Users\bleac\source\repos\Clase-6_5-PII\bin\Debug\net6.0\Clase-6_5-PII.runtimeconfig.json
+C:\Users\bleac\source\repos\Clase-6_5-PII\bin\Debug\net6.0\Clase-6_5-PII.dll
+C:\Users\bleac\source\repos\Clase-6_5-PII\bin\Debug\net6.0\Clase-6_5-PII.pdb
+C:\Users\bleac\source\repos\Clase-6_5-PII\obj\Debug\net6.0\Clase-6_5-PII.csproj.AssemblyReference.cache
+C:\Users\bleac\source\repos\Clase-6_5-PII\obj\Debug\net6.0\Clase-6_5-PII.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bleac\source\repos\Clase-6_5-PII\obj\Debug\net6.0\Clase-6_5-PII.AssemblyInfoInputs.cache
+C:\Users\bleac\source\repos\Clase-6_5-PII\obj\Debug\net6.0\Clase-6_5-PII.AssemblyInfo.cs
+C:\Users\bleac\source\repos\Clase-6_5-PII\obj\Debug\net6.0\Clase-6_5-PII.csproj.CoreCompileInputs.cache
+C:\Users\bleac\source\repos\Clase-6_5-PII\obj\Debug\net6.0\Clase-6_5-PII.dll
+C:\Users\bleac\source\repos\Clase-6_5-PII\obj\Debug\net6.0\refint\Clase-6_5-PII.dll
+C:\Users\bleac\source\repos\Clase-6_5-PII\obj\Debug\net6.0\Clase-6_5-PII.pdb
+C:\Users\bleac\source\repos\Clase-6_5-PII\obj\Debug\net6.0\Clase-6_5-PII.genruntimeconfig.cache
+C:\Users\bleac\source\repos\Clase-6_5-PII\obj\Debug\net6.0\ref\Clase-6_5-PII.dll

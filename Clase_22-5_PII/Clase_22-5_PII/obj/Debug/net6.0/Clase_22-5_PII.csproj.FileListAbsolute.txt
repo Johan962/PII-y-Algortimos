@@ -1,0 +1,15 @@
+C:\Users\bleac\source\repos\Clase_22-5_PII\Clase_22-5_PII\bin\Debug\net6.0\Clase_22-5_PII.exe
+C:\Users\bleac\source\repos\Clase_22-5_PII\Clase_22-5_PII\bin\Debug\net6.0\Clase_22-5_PII.deps.json
+C:\Users\bleac\source\repos\Clase_22-5_PII\Clase_22-5_PII\bin\Debug\net6.0\Clase_22-5_PII.runtimeconfig.json
+C:\Users\bleac\source\repos\Clase_22-5_PII\Clase_22-5_PII\bin\Debug\net6.0\Clase_22-5_PII.dll
+C:\Users\bleac\source\repos\Clase_22-5_PII\Clase_22-5_PII\bin\Debug\net6.0\Clase_22-5_PII.pdb
+C:\Users\bleac\source\repos\Clase_22-5_PII\Clase_22-5_PII\obj\Debug\net6.0\Clase_22-5_PII.csproj.AssemblyReference.cache
+C:\Users\bleac\source\repos\Clase_22-5_PII\Clase_22-5_PII\obj\Debug\net6.0\Clase_22-5_PII.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bleac\source\repos\Clase_22-5_PII\Clase_22-5_PII\obj\Debug\net6.0\Clase_22-5_PII.AssemblyInfoInputs.cache
+C:\Users\bleac\source\repos\Clase_22-5_PII\Clase_22-5_PII\obj\Debug\net6.0\Clase_22-5_PII.AssemblyInfo.cs
+C:\Users\bleac\source\repos\Clase_22-5_PII\Clase_22-5_PII\obj\Debug\net6.0\Clase_22-5_PII.csproj.CoreCompileInputs.cache
+C:\Users\bleac\source\repos\Clase_22-5_PII\Clase_22-5_PII\obj\Debug\net6.0\Clase_22-5_PII.dll
+C:\Users\bleac\source\repos\Clase_22-5_PII\Clase_22-5_PII\obj\Debug\net6.0\refint\Clase_22-5_PII.dll
+C:\Users\bleac\source\repos\Clase_22-5_PII\Clase_22-5_PII\obj\Debug\net6.0\Clase_22-5_PII.pdb
+C:\Users\bleac\source\repos\Clase_22-5_PII\Clase_22-5_PII\obj\Debug\net6.0\Clase_22-5_PII.genruntimeconfig.cache
+C:\Users\bleac\source\repos\Clase_22-5_PII\Clase_22-5_PII\obj\Debug\net6.0\ref\Clase_22-5_PII.dll

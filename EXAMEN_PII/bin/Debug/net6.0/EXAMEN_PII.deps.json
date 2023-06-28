@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "EXAMEN_PII/1.0.0": {
+        "runtime": {
+          "EXAMEN_PII.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EXAMEN_PII/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
