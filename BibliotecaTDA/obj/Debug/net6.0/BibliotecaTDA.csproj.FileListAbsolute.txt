@@ -1,0 +1,12 @@
+C:\Users\bleac\source\repos\BibliotecaTDA\bin\Debug\net6.0\BibliotecaTDA.deps.json
+C:\Users\bleac\source\repos\BibliotecaTDA\bin\Debug\net6.0\BibliotecaTDA.dll
+C:\Users\bleac\source\repos\BibliotecaTDA\bin\Debug\net6.0\BibliotecaTDA.pdb
+C:\Users\bleac\source\repos\BibliotecaTDA\obj\Debug\net6.0\BibliotecaTDA.csproj.AssemblyReference.cache
+C:\Users\bleac\source\repos\BibliotecaTDA\obj\Debug\net6.0\BibliotecaTDA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bleac\source\repos\BibliotecaTDA\obj\Debug\net6.0\BibliotecaTDA.AssemblyInfoInputs.cache
+C:\Users\bleac\source\repos\BibliotecaTDA\obj\Debug\net6.0\BibliotecaTDA.AssemblyInfo.cs
+C:\Users\bleac\source\repos\BibliotecaTDA\obj\Debug\net6.0\BibliotecaTDA.csproj.CoreCompileInputs.cache
+C:\Users\bleac\source\repos\BibliotecaTDA\obj\Debug\net6.0\BibliotecaTDA.dll
+C:\Users\bleac\source\repos\BibliotecaTDA\obj\Debug\net6.0\refint\BibliotecaTDA.dll
+C:\Users\bleac\source\repos\BibliotecaTDA\obj\Debug\net6.0\BibliotecaTDA.pdb
+C:\Users\bleac\source\repos\BibliotecaTDA\obj\Debug\net6.0\ref\BibliotecaTDA.dll
