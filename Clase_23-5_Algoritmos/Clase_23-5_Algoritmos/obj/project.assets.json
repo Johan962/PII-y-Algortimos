@@ -5,7 +5,9 @@
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "C:\\Users\\bleac\\source\\repos\\MyLibreria\\MyLibreria.csproj"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\bleac\\.nuget\\packages\\": {}
@@ -33,7 +35,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\bleac\\source\\repos\\MyLibreria\\MyLibreria.csproj": {
+              "projectPath": "C:\\Users\\bleac\\source\\repos\\MyLibreria\\MyLibreria.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -64,5 +70,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\bleac\\source\\repos\\MyLibreria\\MyLibreria.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\bleac\\source\\repos\\MyLibreria\\MyLibreria.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

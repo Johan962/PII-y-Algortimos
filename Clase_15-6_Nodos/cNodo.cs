@@ -9,26 +9,30 @@ namespace Clase_15_6_Nodos
     internal class cNodo
     {
         //Attributes
-        private object aPrimero;
+        private object aObjeto;
         private cNodo aNodo;
         //Constructors
 
         public cNodo()
         {
-            aPrimero = new object();
-            aNodo = new cNodo();
+            aObjeto = null;
+            aNodo = null;
         }
 
-        public cNodo(object pPrimero, cNodo pNodo)
+        public cNodo(object pObjeto, cNodo pNodo)
         {
-            aPrimero = pPrimero;
+            aObjeto = pObjeto;
             aNodo = pNodo;
         }
         
         //Metods
-        static public bool EsVacio(object pObjeto)
+        static public bool EsVacio()
         {
-            return true;
+            if (aObjeto == null)
+            {
+                return true;
+            }
+            return false;
         }
     }
 }
