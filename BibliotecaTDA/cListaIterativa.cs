@@ -7,18 +7,18 @@ using System.Threading.Tasks;
 
 namespace BibliotecaTDA
 {
-    internal class cListaIterativa
+    public class cListaIterativa
     {
         //Attributes
         private cNodo? aFirst;
 
         //Constructors
-        cListaIterativa()
+        public cListaIterativa()
         {
             aFirst = null;
         }
 
-        cListaIterativa(cNodo? pFirst)
+        public cListaIterativa(cNodo? pFirst)
         {
             aFirst = pFirst;
         }
@@ -64,11 +64,11 @@ namespace BibliotecaTDA
         public void Agregar(object pElemento)
         {
             cNodo? aAux = aFirst;
-            while(aAux.Next != null)
+            while( aAux != null)
             {
                 aAux = aAux.Next;
             }
-            aAux.Next = new cNodo(pElemento);
+            aFirst.Next = new cNodo(pElemento);
         }
 
         public void Insertar(object pElemento, int pos)

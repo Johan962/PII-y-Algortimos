@@ -13,3 +13,6 @@ C:\Users\bleac\source\repos\Palabras\obj\Debug\net6.0\refint\Palabras.dll
 C:\Users\bleac\source\repos\Palabras\obj\Debug\net6.0\Palabras.pdb
 C:\Users\bleac\source\repos\Palabras\obj\Debug\net6.0\Palabras.genruntimeconfig.cache
 C:\Users\bleac\source\repos\Palabras\obj\Debug\net6.0\ref\Palabras.dll
+C:\Users\bleac\source\repos\Palabras\bin\Debug\net6.0\BibliotecaTDA.dll
+C:\Users\bleac\source\repos\Palabras\bin\Debug\net6.0\BibliotecaTDA.pdb
+C:\Users\bleac\source\repos\Palabras\obj\Debug\net6.0\Palabras.csproj.CopyComplete
