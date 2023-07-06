@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BibliotecaTDA;
 
 namespace Palabras
 {
@@ -58,6 +59,31 @@ namespace Palabras
                 return pPalabra.Ingles == aIngles;
             }
             return false;
+        }
+
+        public bool EsPalindromo(string Palabra)
+        {
+            cPila Pila = new cPila();
+            cCola Cola = new cCola();
+            for(int i = 0; i < Palabra.Length; i++)
+            {
+                Pila.Apilar(Palabra[i]);
+                Cola.Acolar(Palabra[i]);
+            }
+            for (int i = 0; i < Palabra.Length; i++)
+            {
+                if (Pila.Cima() == Cola.Cabeza())
+                {
+                    Pila.Desapilar();
+                    Cola.Desacolar();
+                }
+                else
+                {
+                    return false;
+                }
+            }
+
+            return true;
         }
     }
 }
