@@ -29,13 +29,13 @@
 
         //Properties
         
-        public object? Elemento
+        public object Elemento
         {
             get { return aElemento; }
             set { aElemento = value; }
         }
 
-        public cNodo? Next
+        public cNodo Next
         {
             get { return aNext; }
             set { aNext = value; }

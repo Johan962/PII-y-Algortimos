@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -18,7 +19,7 @@ namespace BibliotecaTDA
             aFirst = null;
         }
 
-        public cListaIterativa(cNodo? pFirst)
+        public cListaIterativa(cNodo pFirst)
         {
             aFirst = pFirst;
         }
@@ -43,32 +44,55 @@ namespace BibliotecaTDA
             cNodo? aAux = aFirst;
             Console.WriteLine("LISTA DE ELEMENTOS:");
             Console.WriteLine("-----------------------");
-            while (aAux.Next != null)
+            if (aAux == null)
             {
-                Console.WriteLine("- " + aAux.Elemento);
-            }    
+                Console.WriteLine("No hay elementos que mostrar");
+            }
+            else
+            {
+                while (aAux != null)
+                {
+                    Console.WriteLine($"- { aAux.Elemento}");
+                    aAux = aAux.Next;
+                }
+            }   
         }
 
         public object? Iesimo(int pos)
         {
             cNodo? aAux = aFirst;
             int cont = 0;
-            while(cont != pos)
+            if (pos < 0 || pos != Longitud())
             {
-                aAux = aAux.Next; 
-                cont++;
+                return null;
             }
-            return null;
+            else
+            {
+                while (cont != pos)
+                {
+                    aAux = aAux.Next;
+                    cont++;
+                }
+                return aAux.Elemento;
+            }
         }
 
         public void Agregar(object pElemento)
         {
             cNodo? aAux = aFirst;
-            while( aAux != null)
+
+            if (aAux == null)
             {
-                aAux = aAux.Next;
+                aFirst = new cNodo(pElemento);
             }
-            aFirst.Next = new cNodo(pElemento);
+            else
+            {
+                while (aAux.Next != null)
+                {
+                    aAux = aAux.Next;
+                }
+                aAux.Next = new cNodo(pElemento);
+            }
         }
 
         public void Insertar(object pElemento, int pos)

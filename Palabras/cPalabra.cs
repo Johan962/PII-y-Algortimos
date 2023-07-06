@@ -17,8 +17,8 @@ namespace Palabras
 
         public cPalabra()
         {
-            aEspanol = string.Empty;
-            aIngles = string.Empty;
+            aEspanol = "";
+            aIngles = "";
         }
 
         public cPalabra(string pEspanol, string pIngles)
@@ -42,9 +42,9 @@ namespace Palabras
         }
 
         //Metods
-        public string ToString(cPalabra Palabra)
+        public override string ToString()
         {
-            return "Palabra en espanol es:" + Palabra.Espanol + "Palabra en ingles es: " + Palabra.Ingles;
+            return $"{this.Espanol} : {this.Ingles} ";
         }
 
         public bool Equals(cPalabra pPalabra, int opcion)
