@@ -1,39 +1,60 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "BibliotecaTDA/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BibliotecaTDA.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaTDA.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BibliotecaTDA/1.0.0": {
+      "type": "project",
+      "path": "../BibliotecaTDA/BibliotecaTDA.csproj",
+      "msbuildProject": "../BibliotecaTDA/BibliotecaTDA.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "BibliotecaTDA >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\bleac\\.nuget\\packages\\": {}
+    "/home/johan/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bleac\\source\\repos\\Clase_15-6_Nodos\\Clase_15-6_Nodos.csproj",
+      "projectUniqueName": "/home/johan/PIIyAlgoritmos/Clase_15-6_Nodos/Clase_15-6_Nodos.csproj",
       "projectName": "Clase_15-6_Nodos",
-      "projectPath": "C:\\Users\\bleac\\source\\repos\\Clase_15-6_Nodos\\Clase_15-6_Nodos.csproj",
-      "packagesPath": "C:\\Users\\bleac\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bleac\\source\\repos\\Clase_15-6_Nodos\\obj\\",
+      "projectPath": "/home/johan/PIIyAlgoritmos/Clase_15-6_Nodos/Clase_15-6_Nodos.csproj",
+      "packagesPath": "/home/johan/.nuget/packages/",
+      "outputPath": "/home/johan/PIIyAlgoritmos/Clase_15-6_Nodos/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\bleac\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/johan/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/johan/PIIyAlgoritmos/BibliotecaTDA/BibliotecaTDA.csproj": {
+              "projectPath": "/home/johan/PIIyAlgoritmos/BibliotecaTDA/BibliotecaTDA.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -56,12 +77,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.18, 6.0.18]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[6.0.18, 6.0.18]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.18, 6.0.18]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.107/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "kuo0C0dCB/1P2+AKRPMSBwdTiWdD5RQxXmr2W1OKaQellq2pBf1tc4pnJHGA4/Q65Rjg1p2qrMLA5pUh6aa/Cw==",
+  "dgSpecHash": "m20vxvZdnt47+f8PDJUTeHbXQ0Plg7/SwH/Fof0QunxRDUSdacxxsm5QS7W++ggqMjsY3WwIn9GF4TBKpgC9NA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bleac\\source\\repos\\BibliotecaTDA\\BibliotecaTDA.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/johan/PIIyAlgoritmos/BibliotecaTDA/BibliotecaTDA.csproj",
+  "expectedPackageFiles": [
+    "/home/johan/.nuget/packages/microsoft.netcore.app.ref/6.0.18/microsoft.netcore.app.ref.6.0.18.nupkg.sha512",
+    "/home/johan/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.18/microsoft.aspnetcore.app.ref.6.0.18.nupkg.sha512"
+  ],
   "logs": []
 }
