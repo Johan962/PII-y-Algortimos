@@ -52,7 +52,7 @@ namespace BibliotecaTDA
                 return 1 + aSublista.Longitud();
             }
         }
-        public cListaRecursiva Agregar(object pObjeto)
+        public virtual cListaRecursiva Agregar(object pObjeto)
         {
             if( aSublista == null){
                 aObjeto = pObjeto;
