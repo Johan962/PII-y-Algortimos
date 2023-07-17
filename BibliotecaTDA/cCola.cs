@@ -39,7 +39,14 @@ namespace BibliotecaTDA
         }
         public void Acolar(object pObjeto)
         {
-            new cCola(pObjeto, aSubcola);
+            if (aSubcola == null)
+            {
+                aSubcola = new cCola(pObjeto,new cCola());
+            }
+            else
+            {
+                aSubcola.Acolar(pObjeto);
+            }
 
             
         }
