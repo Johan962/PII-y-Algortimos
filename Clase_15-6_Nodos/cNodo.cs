@@ -26,7 +26,7 @@ namespace Clase_15_6_Nodos
         }
         
         //Metods
-        static public bool EsVacio()
+        public bool EsVacio()
         {
             if (aObjeto == null)
             {

@@ -1,12 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "x11h097yc0bq2pVBGdAat18kcpfF2Ww3g7sQK03vKByyJzWhGnFiHFh1FjoSE1uOWqZ4toeNfpK53wL1j39YRA==",
+  "dgSpecHash": "8Kvhts2QCHeQod/ifDGwSIgOhkp+x8Dj6nPd1oo34DuRDxYIkyIp2zhbP69e5zYxPCQd3tvUtd6M93DvuFqQ+Q==",
   "success": true,
   "projectFilePath": "/home/johan/PIIyAlgoritmos/Clase_15-6_Nodos/Clase_15-6_Nodos.csproj",
   "expectedPackageFiles": [
-    "/home/johan/.nuget/packages/microsoft.netcore.app.ref/6.0.18/microsoft.netcore.app.ref.6.0.18.nupkg.sha512",
-    "/home/johan/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.18/microsoft.aspnetcore.app.ref.6.0.18.nupkg.sha512",
-    "/home/johan/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.18/microsoft.netcore.app.host.linux-x64.6.0.18.nupkg.sha512"
+    "/home/johan/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.7/microsoft.aspnetcore.app.ref.7.0.7.nupkg.sha512"
   ],
   "logs": []
 }

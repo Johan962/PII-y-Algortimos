@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net7.0": {
       "BibliotecaTDA/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -22,7 +22,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net7.0": [
       "BibliotecaTDA >= 1.0.0"
     ]
   },
@@ -42,14 +42,14 @@
         "/home/johan/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net7.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {
             "/home/johan/PIIyAlgoritmos/BibliotecaTDA/BibliotecaTDA.csproj": {
               "projectPath": "/home/johan/PIIyAlgoritmos/BibliotecaTDA/BibliotecaTDA.csproj"
@@ -64,8 +64,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "imports": [
           "net461",
           "net462",
@@ -80,15 +80,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.18, 6.0.18]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.linux-x64",
-            "version": "[6.0.18, 6.0.18]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.18, 6.0.18]"
+            "version": "[7.0.7, 7.0.7]"
           }
         ],
         "frameworkReferences": {

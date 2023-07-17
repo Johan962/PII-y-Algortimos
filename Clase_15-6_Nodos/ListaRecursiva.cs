@@ -30,7 +30,7 @@ namespace Clase_15_6_Nodos
 
         public bool append(object pObjeto, cListaRecursiva pNext)
         {
-
+            return true;
         }
     }
 }
