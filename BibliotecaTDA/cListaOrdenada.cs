@@ -13,19 +13,14 @@ namespace BibliotecaTDA
 
         //Constructors 
 
-        cListaOrdenada(){
+        public cListaOrdenada(){
             aObjeto = null;
             aSublista = null;
         }
 
-        cListaOrdenada(object pObjeto, cListaOrdenada pSublista){
+        public cListaOrdenada(object pObjeto, cListaOrdenada pSublista){
             aObjeto = pObjeto;
             aSublista = pSublista;
-        }
-
-        cListaOrdenada(object pObjeto){
-            aObjeto = pObjeto;
-            aSublista = null;
         }
 
         //Properties
@@ -41,5 +36,17 @@ namespace BibliotecaTDA
         }
 
         //Metods
+
+        public override cListaOrdenada Agregar(object pObjeto){
+            if ((int)aObjeto >= (int)pObjeto && (int)pObjeto >= (int)aSublista.Objeto)
+            {
+                return aSublista.Agregar(pObjeto);
+            }
+            else
+            {
+                aSublista = new cListaOrdenada(pObjeto, aSublista.Sublista);
+                return aSublista;
+            }
+        }
     }
 }
