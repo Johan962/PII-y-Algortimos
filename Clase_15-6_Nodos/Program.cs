@@ -28,8 +28,8 @@ internal class Program
             Console.WriteLine($"{ lista.Ubicacion( 4 ) }");
             Console.WriteLine();
 
-            lista.Eliminar( 7 );
-            lista.Eliminar( 7 );
+            lista.Eliminar( 3 );
+            lista.Eliminar( 2 );
             lista.Eliminar( 1 );
             //lista.Listar();
             Console.WriteLine();

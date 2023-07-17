@@ -39,7 +39,7 @@ namespace BibliotecaTDA
             set { aSublista = value; }
         }
 
-        public bool isEmpty()
+        public bool EsVacia()
         {
             return aSublista==null && aObjeto==null;
         }
@@ -85,7 +85,11 @@ namespace BibliotecaTDA
         }
 
         public void Eliminar(int pos) {
-            if (pos == 0 && pos < Longitud()){
+            if ( pos > Longitud()){
+                return;
+            }
+            if (pos == 0){
+
                 aSublista = aSublista.SubLista;
             }
             else {
