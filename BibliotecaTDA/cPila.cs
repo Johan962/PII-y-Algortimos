@@ -9,43 +9,68 @@ namespace BibliotecaTDA
     public class cPila : cListaIterativa
     {
         //Attributes
-
-        cListaIterativa aPila;
+        private object aObjeto;
+        private cPila aSubpila;
 
         //Constructors
 
         public cPila()
         {
-            aPila = new cListaIterativa();
+            aObjeto = null;
+            aSubpila = new cPila();
         }
 
-        cPila(cListaIterativa pPila)
+        cPila(object pObjeto, cPila pSubpila)
         {
-            aPila = pPila;
+            aObjeto = pObjeto;
+            aSubpila = pSubpila;
         }
 
         //Properties
 
-        public cListaIterativa Pila
+        public object Objeto
         {
-            get { return aPila; }
-            set { aPila = value; }
+            get { return aObjeto; }
+            set { aObjeto = value; }
+        }
+        public cPila Subpila
+        {
+            get { return aSubpila; }
+            set { aSubpila = value; }
         }
         //Metods
 
-        public void Apilar(object pElemento)
+        public bool EsVacio()
         {
-            Pila.Agregar(pElemento);
+            if (aSubpila == null && aObjeto == null)
+            {
+                return true;
+            }
+            return false;
+        }
+        public void Apilar(object pObjeto)
+        {
+            //Subpila.Agregar(pElemento);
+            aSubpila = new cPila(aObjeto, aSubpila);
+            aObjeto = pObjeto;
         }
 
-        public object Desapilar()
+        public void Desapilar()
         {
-            return null;
+            // object Objeto = Iesimo(Longitud() - 1);
+            // Eliminar(Longitud() - 1);
+            // return Objeto;
+
+            if (!EsVacio())
+            {
+                aObjeto = aSubpila.Objeto;
+                aSubpila = aSubpila.Subpila;
+            }
         }
 
         public object Cima()
         {
-            return null;
+            return aObjeto;
         }
     }
 }

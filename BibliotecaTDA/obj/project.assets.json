@@ -8,24 +8,26 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/home/johan/.nuget/packages/": {}
+    "C:\\Users\\bleac\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/johan/PIIyAlgoritmos/BibliotecaTDA/BibliotecaTDA.csproj",
+      "projectUniqueName": "C:\\Users\\bleac\\source\\repos\\BibliotecaTDA\\BibliotecaTDA.csproj",
       "projectName": "BibliotecaTDA",
-      "projectPath": "/home/johan/PIIyAlgoritmos/BibliotecaTDA/BibliotecaTDA.csproj",
-      "packagesPath": "/home/johan/.nuget/packages/",
-      "outputPath": "/home/johan/PIIyAlgoritmos/BibliotecaTDA/obj/",
+      "projectPath": "C:\\Users\\bleac\\source\\repos\\BibliotecaTDA\\BibliotecaTDA.csproj",
+      "packagesPath": "C:\\Users\\bleac\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bleac\\source\\repos\\BibliotecaTDA\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/johan/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\bleac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -54,22 +56,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.18, 6.0.18]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.18, 6.0.18]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.107/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

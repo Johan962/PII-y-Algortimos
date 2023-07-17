@@ -6,34 +6,67 @@ using System.Threading.Tasks;
 
 namespace BibliotecaTDA
 {
-    public class cCola
+    public class cCola : cListaRecursiva
     {
+
         //Atributtes
-        cListaIterativa aCola;
+        private object aObjeto;
+        cCola aSubcola;
 
         //Constructors
         public cCola()
         {
-            aCola = new cListaIterativa();
+            aObjeto = null;
+            aSubcola = new cCola();
         }
-        public cCola(cListaIterativa pCola)
+        public cCola(object pObjeto, cCola pCola)
         {
-            aCola = pCola;
+            aObjeto= pObjeto;
+            aSubcola = pCola;
         }
         //Properties
-        //Metods
-        public void Acolar(object pElemento)
-        { 
 
+        public cCola Subcola
+        {
+            get { return aSubcola; }   
+            set { aSubcola = value; }
+        }
+        //Metods
+
+        public bool EsVacio()
+        {
+            return aSubcola == null && aObjeto == null;
+        }
+        public void Acolar(object pObjeto)
+        {
+            new cCola(pObjeto, aSubcola);
+
+            
         }
         public object Desacolar()
         {
-            return null;
+            if (aSubcola.Subcola == null)
+            {
+                object pop = aSubcola.Objeto;
+                aSubcola = null;
+                return pop;
+            }
+            else
+            {
+                return aSubcola.Desacolar;
+            }
         }
 
         public object Cabeza()
         {
-            return null;
+            if (aSubcola == null)
+            {
+                return aObjeto;
+            }
+            else
+            {
+                return aSubcola.Cabeza();
+            }
         }
     }
 }
