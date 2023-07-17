@@ -57,10 +57,7 @@ namespace BibliotecaTDA
 
         public void Desapilar()
         {
-            // object Objeto = Iesimo(Longitud() - 1);
-            // Eliminar(Longitud() - 1);
-            // return Objeto;
-
+            
             if (!EsVacio())
             {
                 aObjeto = aSubpila.Objeto;
