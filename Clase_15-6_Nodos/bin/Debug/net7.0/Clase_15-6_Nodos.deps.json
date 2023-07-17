@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Clase_15-6_Nodos/1.0.0": {
+        "dependencies": {
+          "BibliotecaTDA": "1.0.0"
+        },
+        "runtime": {
+          "Clase_15-6_Nodos.dll": {}
+        }
+      },
+      "BibliotecaTDA/1.0.0": {
+        "runtime": {
+          "BibliotecaTDA.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Clase_15-6_Nodos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BibliotecaTDA/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
