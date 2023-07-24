@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BibliotecaTDA
 {
-    public class cCola : cListaRecursiva
+    public class cCola
     {
 
         //Atributtes
@@ -26,6 +26,11 @@ namespace BibliotecaTDA
         }
         //Properties
 
+        public object Objeto
+        {
+            get { return aObjeto; }
+            set { aObjeto = value; }
+        }
         public cCola Subcola
         {
             get { return aSubcola; }   
@@ -54,7 +59,7 @@ namespace BibliotecaTDA
         {
             if (aSubcola.Subcola == null)
             {
-                object pop = aSubcola.Objeto;
+                object pop = aSubcola.aObjeto;
                 aSubcola = null;
                 return pop;
             }
