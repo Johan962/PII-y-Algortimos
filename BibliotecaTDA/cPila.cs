@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BibliotecaTDA
 {
-    public class cPila : cListaIterativa
+    public class cPila
     {
         //Attributes
         private object aObjeto;
@@ -17,7 +17,7 @@ namespace BibliotecaTDA
         public cPila()
         {
             aObjeto = null;
-            aSubpila = new cPila();
+            aSubpila = null;
         }
 
         cPila(object pObjeto, cPila pSubpila)

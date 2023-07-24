@@ -1,11 +1,11 @@
-﻿using BibliotecaTDA;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BibliotecaTDA;
 
 namespace AppCalculadora
 {
@@ -82,9 +82,40 @@ namespace AppCalculadora
                 if (Token.Equals("("))
                 Pila.Apilar(Token);
             else
-                if (Token.Equals(" ")) { }
-                ExpresionAPosfija += " " + Token;
+                if (Token.Equals(" "))
+                ExpresionAPosfija = ExpresionAPosfija + " " + Token;
             return ExpresionAPosfija;
+        }
+
+        public string Convertir()
+        {
+            cPila Pila = new cPila();
+            cStringTokenizer ST = new cStringTokenizer(aExpresion, "+-*/() ", true);
+            string Token;
+            string ExpresionPosFijo = "";
+
+            if (ST.CountTokens() > 0)
+                do
+                {
+                    Token = ST.NextToken();
+                    Console.WriteLine(Token);
+                    ExpresionPosFijo = ProcesartToken(Token, Pila, ExpresionPosFijo);
+                } while (ST.HasMoreTokens());
+
+            while (!Pila.EsVacio())
+            {
+                ExpresionPosFijo = ExpresionPosFijo + (String)Pila.Cima();
+                Pila.Desapilar();
+
+            }
+            Console.WriteLine($"Expresion: -{ExpresionPosFijo}-");
+            return ExpresionPosFijo;
+        }
+
+        public String Convertir(String TextoExpresion)
+        {
+            aExpresion = TextoExpresion;
+            return Convertir();
         }
     }
 }

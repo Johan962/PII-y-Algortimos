@@ -62,7 +62,7 @@ namespace BibliotecaTDA
         {
             cNodo? aAux = aFirst;
             int cont = 0;
-            if (pos < 0 || pos != Longitud())
+            if (pos < 0 || pos >= Longitud())
             {
                 return null;
             }
