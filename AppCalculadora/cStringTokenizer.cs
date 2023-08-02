@@ -12,7 +12,7 @@ namespace AppCalculadora
     {
         //Attributes
         private string aTexto;
-        private cListaIterativa aLista;
+        private cListaRecursiva aLista;
         private int aIndice;
 
         //Constructors
@@ -41,10 +41,8 @@ namespace AppCalculadora
 
         private void GenerarListaTokens(string Delimitadores, bool RetornaTokens)
         {
-            aLista = new cListaIterativa();
-
+            aLista = new cListaRecursiva();
             char[] Caracteres = aTexto.ToCharArray();
-
             string Token = " ";
 
             for  (int k = 0; k < Caracteres.Length; k++)

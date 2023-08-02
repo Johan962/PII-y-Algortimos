@@ -9,8 +9,8 @@ namespace BibliotecaTDA
     public class cPila
     {
         //Attributes
-        private object aObjeto;
-        private cPila aSubpila;
+        private object? aObjeto;
+        private cPila? aSubpila;
 
         //Constructors
 
@@ -28,12 +28,12 @@ namespace BibliotecaTDA
 
         //Properties
 
-        public object Objeto
+        public object? Objeto
         {
             get { return aObjeto; }
             set { aObjeto = value; }
         }
-        public cPila Subpila
+        public cPila? Subpila
         {
             get { return aSubpila; }
             set { aSubpila = value; }
@@ -57,7 +57,7 @@ namespace BibliotecaTDA
 
         public void Desapilar()
         {
-            
+
             if (!EsVacio())
             {
                 aObjeto = aSubpila.Objeto;
@@ -68,6 +68,19 @@ namespace BibliotecaTDA
         public object Cima()
         {
             return aObjeto;
+        }
+
+        public void Listar()
+        {
+            if ( Subpila == null)
+            {
+                return;
+            }
+            else
+            {
+                aSubpila.Listar();
+                Console.WriteLine($"- {aObjeto}");
+            }
         }
     }
 }

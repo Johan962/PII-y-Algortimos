@@ -38,15 +38,54 @@ namespace BibliotecaTDA
         //Metods
 
         public override cListaOrdenada Agregar(object pObjeto){
-            if ((int)aObjeto >= (int)pObjeto && (int)pObjeto >= (int)aSublista.Objeto)
+
+            if (EsVacia())
             {
-                return aSublista.Agregar(pObjeto);
+                aObjeto = pObjeto;
+                return this;
             }
             else
             {
-                aSublista = new cListaOrdenada(pObjeto, aSublista.Sublista);
-                return aSublista;
+                if (pObjeto.ToString().CompareTo(aObjeto.ToString()) > 0)
+                {
+                    return aSublista.Agregar(pObjeto);
+                }
+                else
+                {
+                    aSublista = new cListaOrdenada(aObjeto,aSublista);
+                    aObjeto = pObjeto;
+                    return aSublista;
+                }
             }
+        }
+
+        public void Listar()
+        {
+            if (EsVacia())
+            {
+                Console.WriteLine("Si llega");
+            }
+            else
+            {
+                Console.WriteLine($"- {aObjeto}");
+                aSublista.Listar();
+            }
+        }
+        public int Longitud()
+        {
+            if ( aSublista == null)
+            {
+                return 0;
+            }
+            else
+            {
+                return 1 + aSublista.Longitud();
+            }
+        }
+
+        public object Cima()
+        {
+            return aObjeto;
         }
     }
 }

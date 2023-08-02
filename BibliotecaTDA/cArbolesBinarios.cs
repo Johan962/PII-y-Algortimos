@@ -65,7 +65,7 @@ namespace BibliotecaTDA
             return aElemento == null && aHijoDerecho == null && aHijoIzquierdo == null;
         }
 
-        public cArbolBinario Agregar(object pElemento, cArbolBinario pSubArbolPadre)
+        public virtual cArbolBinario Agregar(object pElemento, cArbolBinario pSubArbolPadre)
         {
             if (EsVacia() && pSubArbolPadre == null)
             {
@@ -74,7 +74,7 @@ namespace BibliotecaTDA
             }
             else
             {
-                if (pSubArbolPadre == BuscarArbol(pSubArbolPadre))
+                if (pSubArbolPadre == BuscarArbol(pSubArbolPadre.Elemento))
                 {
                     return pSubArbolPadre.Agregar(pElemento, pSubArbolPadre);
                 }
@@ -95,7 +95,7 @@ namespace BibliotecaTDA
             }
             else
             {
-                if (aHijoIzquierdo.EsVacia())
+                if (HijoIzquierdo.EsVacia())
                 {
                     aHijoIzquierdo = new cArbolBinario(pElementoHijo);
                     return this;
@@ -109,20 +109,21 @@ namespace BibliotecaTDA
                     }
                     else
                     {
-                        if (!aHijoIzquierdo.EsVacia())
+                        if (aHijoIzquierdo != null)
                         {
                             return aHijoIzquierdo.AgregarHijo(pElementoHijo);
                         }
-                        else
+                        else if (!aHijoDerecho.EsVacia())
                         {
                             return aHijoDerecho.AgregarHijo(pElementoHijo);
                         }
                     }
                 }
             }
+            return this;
         }
 
-        public cArbolBinario BuscarArbol(cArbolBinario pArbolBuscado)
+        public cArbolBinario BuscarArbol(Object pArbolBuscado)
         {
             if (EsVacia())
             {
@@ -147,6 +148,9 @@ namespace BibliotecaTDA
             }
         }
 
+        public virtual void Insertar()
+        {
 
+        }
     }
 }
