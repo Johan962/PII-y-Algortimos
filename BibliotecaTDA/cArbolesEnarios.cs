@@ -15,14 +15,14 @@ namespace BibliotecaTDA
         private cArbolE aSgteHermano;
         #endregion *********************** ATRIBUTOS *********************
         #region ==================== CONSTRUCTORES =======================
-        protected cArbolE()
+        public cArbolE()
         {
             aRaiz = null;
             aPrimerHijo = null;
             aSgteHermano = null;
         }
         // ----------------------------------------------------------------
-        protected cArbolE(Object pRaiz)
+        public cArbolE(Object pRaiz)
         {
             aRaiz = pRaiz;
             aPrimerHijo = null;
@@ -84,7 +84,7 @@ namespace BibliotecaTDA
             return (aRaiz == null);
         }
         // -----------------------------------------------------------------
-        public cArbolE Agregar(cArbolE SubArbolPadre, object Hijo)
+        public cArbolE Agregar(cArbolE? SubArbolPadre, object Hijo)
         {
             /* Si árbol está vacío o SubArbolPadre es nulo, agregar hijo como raíz */
             if ((SubArbolPadre == null) && (EstaVacio()))
@@ -131,6 +131,7 @@ namespace BibliotecaTDA
         // -----------------------------------------------------------------
         public cArbolE SubArbol(Object pRaiz)
         {
+            
             if (EstaVacio())
                 return null;
             else
@@ -139,13 +140,20 @@ namespace BibliotecaTDA
                 return this;
             else
             {
+                Console.WriteLine(aRaiz);
                 /* ----- Buscar en el primer hijo (si existe) */
                 cArbolE ArbolAux = null;
                 if (aPrimerHijo != null)
+                {
+                    Console.WriteLine("Hola");
                     ArbolAux = aPrimerHijo.SubArbol(pRaiz);
+                }
                 /* ---- Si no existe en primer hijo, buscar en siguiente hermano (si existe)*/
                 if ((ArbolAux == null) && (aSgteHermano != null))
+                {
                     ArbolAux = aSgteHermano.SubArbol(pRaiz);
+                }
+
                 return ArbolAux;
             }
         }
@@ -316,6 +324,11 @@ namespace BibliotecaTDA
                 int Altura2 = aSgteHermano.AlturaHermanos();
                 return (Altura1 > Altura2 ? Altura1 : Altura2);
             }
+        }
+
+        public void ImpObjeto()
+        {
+            Console.WriteLine(aRaiz);
         }
         #endregion ==================== MÉTODOS DE PROCESO =======================
     }

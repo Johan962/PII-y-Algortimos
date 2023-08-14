@@ -46,7 +46,7 @@ namespace BibliotecaTDA
             }
             else
             {
-                if (pObjeto.ToString().CompareTo(aObjeto.ToString()) > 0)
+                if (aObjeto.ToString().CompareTo(pObjeto.ToString()) > 0)
                 {
                     return aSublista.Agregar(pObjeto);
                 }

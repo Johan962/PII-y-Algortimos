@@ -8,30 +8,30 @@ using System.Threading.Tasks;
 
 namespace BibliotecaTDA
 {
-    internal class cArbolBinario
+    internal class cArbolBinario1
     {
         //Atributes
-        private cArbolBinario aHijoIzquierdo;
+        private cArbolBinario1 aHijoIzquierdo;
         private Object aElemento;
-        private cArbolBinario aHijoDerecho;
+        private cArbolBinario1 aHijoDerecho;
 
         //Constructors
 
-        public cArbolBinario()
+        public cArbolBinario1()
         {
             aElemento = null;
             aHijoDerecho = null;
             aHijoIzquierdo = null;
         }
 
-        public cArbolBinario(cArbolBinario pRaiz, Object pElemento, cArbolBinario pHijoIzquierdo, cArbolBinario pHijoDerecho)
+        public cArbolBinario1(cArbolBinario1 pRaiz, Object pElemento, cArbolBinario1 pHijoIzquierdo, cArbolBinario1 pHijoDerecho)
         {
             aElemento = pElemento;
             aHijoIzquierdo = pHijoIzquierdo;
             aHijoDerecho = pHijoDerecho;
         }
 
-        public cArbolBinario(object pElemento)
+        public cArbolBinario1(object pElemento)
         {
             aElemento = pElemento;
             aHijoDerecho = null;
@@ -46,13 +46,13 @@ namespace BibliotecaTDA
             set { aElemento = value; }
         }
 
-        public cArbolBinario HijoIzquierdo
+        public cArbolBinario1 HijoIzquierdo
         {
             get { return aHijoIzquierdo; }
             set { aHijoIzquierdo = value; }
         }
 
-        public cArbolBinario HijoDerecho
+        public cArbolBinario1 HijoDerecho
         {
             get { return aHijoDerecho;}
             set { aHijoDerecho= value; }
@@ -65,7 +65,7 @@ namespace BibliotecaTDA
             return aElemento == null && aHijoDerecho == null && aHijoIzquierdo == null;
         }
 
-        public virtual cArbolBinario Agregar(object pElemento, cArbolBinario pSubArbolPadre)
+        public virtual cArbolBinario1 Agregar(object pElemento, cArbolBinario1 pSubArbolPadre)
         {
             if (EsVacia() && pSubArbolPadre == null)
             {
@@ -86,7 +86,7 @@ namespace BibliotecaTDA
             }
         }
 
-        public cArbolBinario AgregarHijo(object pElementoHijo)
+        public cArbolBinario1 AgregarHijo(object pElementoHijo)
         {
             if (EsVacia())
             {
@@ -97,14 +97,14 @@ namespace BibliotecaTDA
             {
                 if (HijoIzquierdo.EsVacia())
                 {
-                    aHijoIzquierdo = new cArbolBinario(pElementoHijo);
+                    aHijoIzquierdo = new cArbolBinario1(pElementoHijo);
                     return this;
                 }
                 else
                 {
                     if (HijoDerecho.EsVacia())
                     {
-                        aHijoDerecho = new cArbolBinario(pElementoHijo);
+                        aHijoDerecho = new cArbolBinario1(pElementoHijo);
                         return this;
                     }
                     else
@@ -123,7 +123,7 @@ namespace BibliotecaTDA
             return this;
         }
 
-        public cArbolBinario BuscarArbol(Object pArbolBuscado)
+        public cArbolBinario1 BuscarArbol(Object pArbolBuscado)
         {
             if (EsVacia())
             {
